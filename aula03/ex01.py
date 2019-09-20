@@ -1,18 +1,34 @@
+total = 0
 dic = {1:8.5, 2:3.25, 3:4.60}
 
 lista = []
 
-print("Escolha o seu produto: ")
 print("1 - Banana\n2 - Pera\n3 - Melancia")
-
+    print("Escolha o seu produto: ")
+    x = int(input("Produto: "))
 
 lista.append(1)
 lista.append(2)
 lista.append(3)
 
+for fruta in lista:
+    total += dic[fruta]
+
+print("O Total é {}".format(total)
+  
+    
+
+    
+
 
 
 exit()
+
+for fruta in lista:
+    print(
+    
+
+
 # CALCULADORA COM FUNÇÃO / DICIONÁRIO / VALIDA OPCAO
 
 def escolhe_op():
